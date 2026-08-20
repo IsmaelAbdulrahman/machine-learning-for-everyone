@@ -10,7 +10,7 @@ A complete book and a free, fully-offline companion app for learning classical m
 - **`book/`** — the book, as a downloadable PDF.
 - **`assets/`** — images used by the site (cover, icons, screenshots, social-preview image).
 
-ML Studio, the companion app, lives in its own repo so this one stays focused on the book: [ml-studio-app](https://github.com/IsmaelAbdulrahman/ml-studio-app) — a self-contained web build (HTML/JS + Pyodide, the same code that ships on Android), live at https://ismaelabdulrahman.github.io/ml-studio-app/.
+ML Studio, the companion Android app, is distributed only through Google Play (currently in closed testing) — its source isn't published here.
 
 ## The book
 
