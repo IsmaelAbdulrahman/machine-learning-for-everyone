@@ -83,7 +83,8 @@ section.values{padding:54px 0; border-bottom:1px solid var(--line);}
 .value-card p{color:var(--sub); font-size:14.5px; margin:0;}
 
 /* generic section */
-section.block{padding:64px 0;}
+section.block{padding:64px 0; scroll-margin-top:70px;}
+.testing-box{scroll-margin-top:90px;}
 section.block.alt{background:var(--bg-alt);}
 .section-head{max-width:640px; margin:0 0 34px 0;}
 .section-head h2{font-size:28px;}
@@ -166,7 +167,7 @@ footer li{margin-bottom:9px; font-size:13.5px;}
       <p class="sub">21 chapters, from "what is learning?" to shipping a model in production — plus <b>ML Studio</b>, a companion app where every dataset, model, and lab from the book runs live on your own device.</p>
       <div class="btn-row">
         <a class="btn btn-primary" href="book/Machine-Learning-for-Everyone.pdf" target="_blank" rel="noopener">Download the PDF</a>
-        <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.mlstudio.machinelearning" target="_blank" rel="noopener">Get it on Google Play</a>
+        <a class="btn btn-ghost" href="#tester-access">Get it on Google Play</a>
       </div>
       <p class="byline">By Dr. Ismael Khorshed Abdulrahman — PhD, Electrical and Computer Engineering, Tennessee Technological University</p>
     </div>
@@ -298,15 +299,18 @@ footer li{margin-bottom:9px; font-size:13.5px;}
       <p>This is the same code that ships on Android, running in your browser via Pyodide — no install, nothing to configure.</p>
       <div class="btn-row">
         <a class="btn btn-primary" href="https://ismaelabdulrahman.github.io/ml-studio-app/" target="_blank" rel="noopener">Launch ML Studio</a>
-        <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.mlstudio.machinelearning" target="_blank" rel="noopener">Get it on Google Play</a>
+        <a class="btn btn-ghost" href="#tester-access">Get it on Google Play</a>
       </div>
       <p class="demo-note">First load fetches the Python runtime (~30&nbsp;MB) and caches it — it's instant after that.</p>
     </div>
 
-    <div class="testing-box">
+    <div class="testing-box" id="tester-access">
       <h3>ML Studio is in closed testing on Google Play</h3>
-      <p>Installs are currently limited to approved testers. To get access, submit the email on your Android device's Google account below — once it's added to the tester list, the Play Store link above will let you install the app directly.</p>
-      <a class="btn btn-primary" href="https://forms.gle/yHEM58GkqciduSWt6" target="_blank" rel="noopener">Request tester access</a>
+      <p>Installs are currently limited to approved testers. To get access, submit the email on your Android device's Google account below — once it's added to the tester list, you'll be able to install the app from the Play Store.</p>
+      <div class="btn-row" style="justify-content:center;">
+        <a class="btn btn-primary" href="https://forms.gle/yHEM58GkqciduSWt6" target="_blank" rel="noopener">Request tester access</a>
+        <a class="btn btn-secondary" href="https://play.google.com/store/apps/details?id=com.mlstudio.machinelearning" target="_blank" rel="noopener">Already approved? Open Play Store</a>
+      </div>
     </div>
   </div>
 </section>
@@ -326,7 +330,7 @@ footer li{margin-bottom:9px; font-size:13.5px;}
           <li><a href="https://github.com/ismaelabdulrahman/machine-learning-for-everyone" target="_blank" rel="noopener">GitHub repository</a></li>
           <li><a href="book/Machine-Learning-for-Everyone.pdf" target="_blank" rel="noopener">Download the book (PDF)</a></li>
           <li><a href="https://ismaelabdulrahman.github.io/ml-studio-app/" target="_blank" rel="noopener">Try ML Studio in your browser</a></li>
-          <li><a href="https://play.google.com/store/apps/details?id=com.mlstudio.machinelearning" target="_blank" rel="noopener">ML Studio on Google Play</a></li>
+          <li><a href="#tester-access">ML Studio on Google Play</a></li>
         </ul>
       </div>
       <div>
